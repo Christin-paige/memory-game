@@ -1,0 +1,55 @@
+body {
+  background-image: url('https://img.freepik.com/free-photo/digital-art-cat-pattern_23-2151520507.jpg?t=st=1718059284~exp=1718062884~hmac=acf4a2dd476eec38f59e67628bc053e17da367777239a719b8aa37b9bc8f956d&w=1380');
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.container img {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  margin: 20px;
+  border-radius: 8px;
+}
+h1 {
+  font-size: 50px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-right: 50px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.score {
+  font-size: 20px;
+  text-align: left;
+  padding-left: 20px;
+  margin-right: 100px;
+}
+.high-score {
+  font-size: 20px;
+  text-align: left;
+  padding-left: 20px;
+  margin-right: 100px;
+}
+.score-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  border-style: double;
+  width: 250px;
+  box-shadow: 0 0 50px 15px #48abe0;
+  background-color: black;
+  opacity: 0.66;
+  
+}
+
